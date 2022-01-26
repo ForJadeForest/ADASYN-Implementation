@@ -18,7 +18,7 @@ Algorithm ADASYN implementation, using datasets given by [paper](https://ieeexpl
 
   - *Vowel recognition*
 
-    > This is a speech recognition dataset used to classify different vowels. The original dataset includes 990 examples and 11 classes. Each example is repre sented by 10 attributes.  Since each vowel in the original data set has 10 examples, we choose the fifirst vowel as the minority class and collapse the rest to be the majority class, which gives 90 and 900 minority and majority examples, respectively.
+    > This is a speech recognition dataset used to classify different vowels. The original dataset includes 990 examples and 11 classes. Each example is represented by 10 attributes.  Since each vowel in the original data set has 10 examples, we choose the fifirst vowel as the minority class and collapse the rest to be the majority class, which gives 90 and 900 minority and majority examples, respectively.
 
   - *Ionosphere*
 
@@ -26,7 +26,7 @@ Algorithm ADASYN implementation, using datasets given by [paper](https://ieeexpl
 
   - *Abalone*
 
-    >  This data set is used to predict the age of abalone from physical measurements. The original data set includes 4177 examples and 29 classes, and each example is represented by 8 attributes. We choose class “18” as the minority class and class “9” as the majority class as suggested in [17]. In addition, we also removed the discrete feature (feature “sex”) in our current simulation. This gives us 42 minority class examples and 689 majority class examples; each represented by 7 numerical attributes.
+    >  This data set is used to predict the age of abalone from physical measurements. The original data set includes 4177 examples and 29 classes, and each example is represented by 8 attributes. We choose class “18” as the minority class and class “9” as the majority class. In addition, we also removed the discrete feature (feature “sex”) in our current simulation. This gives us 42 minority class examples and 689 majority class examples; each represented by 7 numerical attributes.
 
 Next is the result given by the paper
 
