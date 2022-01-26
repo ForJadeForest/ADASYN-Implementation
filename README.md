@@ -46,4 +46,10 @@ Next is my result
 |    Vol     | ADASYN | 0.875  |    0.4    | 0.9524 | 0.5634 | 0.9091 |
 |  Abalone   |   DT   | 0.9672 |   0.75    | 0.375  |  0.5   | 0.6106 |
 |  Abalone   | ADASYN | 0.8962 |  0.2105   |  0.5   | 0.2963 | 0.6761 |
-
+## File Struction
+- `model.py`: load the parameters of decision trees
+- `test.py`: show the result
+- `data_set.py`: process the dataset
+- `adasyn.py`: the algorithm ADASYN implementation and my improved version.
+- `perform.ipynb`: test my improved adasyn algorithm performance
+- `datasets`: conclude the five datasets
