@@ -29,8 +29,7 @@ Algorithm ADASYN implementation, using datasets given by [paper](https://ieeexpl
     >  This data set is used to predict the age of abalone from physical measurements. The original data set includes 4177 examples and 29 classes, and each example is represented by 8 attributes. We choose class “18” as the minority class and class “9” as the majority class. In addition, we also removed the discrete feature (feature “sex”) in our current simulation. This gives us 42 minority class examples and 689 majority class examples; each represented by 7 numerical attributes.
 
 Next is the result given by the paper
-
-<img src="https://gitee.com/jadeforest/for-pic/raw/master/img/image-20220126105207670.png" alt="image-20220126105207670" style="zoom:50%;" />
+<img src="https://jadepicgo.oss-cn-shenzhen.aliyuncs.com/img/image-20220126105207670.png" alt="image-20220126105207670" style="zoom:50%;" />
 
 Next is my result
 
